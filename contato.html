@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="protótipo.css">
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</head>
+<body class="body3">
+    <nav>
+        <a href="index.html" title="home">HOME -</a>
+        <a href="sobremim.html" title="SOBRE MIM"> SOBRE MIM -</a>
+        <a href="contato.html" title="CONTATO"> CONTATO</a>
+    </nav>
+    <main>
+    <form action="https://formspree.io/f/xwpalkrz" method="post">
+    <fieldset>
+       <p class="p3"><strong>Entre em Contato</strong></p>
+        <label for="Nome">Nome <br><input class="nome" type="text" required name="Nome"  size="80" maxlength="52">
+             <div>
+                    <label for="e-mail">E-Mail <br>
+                        <input class="e" type="text" required name="e-mail" id="e-mail" size="80">
+                    </label>
+                 </div>
+<div>
+ <label for="celular">WhatsApp <br>
+                        <input class="cel" type="text" required name="celular" id="celular" size="80" maxlength="13" placeholder="(DDD)-90000-0000">
+                    </label>
+                </div>
+                <div>
+                    <label for="assunto">Assunto <br><input type="text"class="assunto" type="text" required name="Nome" id="assunto" size="80" maxlength="52"></label></div>
+                <div>
+                    <label for="comentário">Mensagem <br>
+                    <textarea class="mensagem" name="mensagem" id="mensagem" cols="80" rows="8" style="resize:none"></textarea>
+                    </label>
+                </div>
+                <button class="button2" type="submit">Enviar Mensagem </button>
+    </fieldset> 
+    </form>
+     <script>
+          $('#celular').mask('(000) 00000-0000');
+    </script>
+    </main>
+   <button><a href="index.html" title="nome"><strong>HOME</strong></a></button>
+  <footer>
+    <p>&#x00A9; 2025 Erica Maria da Costa - Desenvolvedor Web </p>
+       <p><a href="https://github.com/erica-costa587">GitHub</a> |
+       <a href="mailto:ericamariacosta587@gmail.com">E-mail</a>
+         |<a href="https://www.instagram.com/erica_artesanatos587?igsh=MXYzeXB0ZXljMmd6cA==">Insta</a>  </p> 
+       <p>Construído com HTML, CSS, JavaScript-Sempre evoluindo. </p>
+
+    </footer>
+</body>
+</html>
